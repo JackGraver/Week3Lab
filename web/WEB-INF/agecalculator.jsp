@@ -1,7 +1,7 @@
 <%-- 
     Document   : agecalculator
     Created on : Sep 22, 2020, 10:31:57 AM
-    Author     : 815138
+    Author     : 815138 - Jack Graver
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
