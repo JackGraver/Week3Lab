@@ -21,8 +21,8 @@
             <input type="submit" value="-" name="minus">
             <input type="submit" value="*" name="multiply">
             <input type="submit" value="%" name="divise">
-        </form>
-        Result<p>${result}</p>
+        </form><br>
+        Result: ${result} <br>
         <a href="age">Age Calculator</a>
     </body>
 </html>

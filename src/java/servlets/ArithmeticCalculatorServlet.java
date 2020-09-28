@@ -6,7 +6,6 @@
 package servlets;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -39,6 +38,7 @@ public class ArithmeticCalculatorServlet extends HttpServlet {
                int firstInt = Integer.parseInt(first);
                int secondInt = Integer.parseInt(second);
                String result = "";
+               
                if(request.getParameter("add") != null) {
                    result =  Integer.toString(firstInt + secondInt);
                } else if (request.getParameter("minus") != null) {
